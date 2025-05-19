@@ -82,6 +82,55 @@ lib/
 └── main.dart              # Application entry point
 ```
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Authentication Screens
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+  <div style="width: 48%;">
+    <img src="./screenshoot/login.png" width="400" alt="Login Screen"/>
+    <p><em>Clean login screen with helpful error messages</em></p>
+  </div>
+  <div style="width: 48%;">
+    <img src="./screenshoot/register.png" width="400" alt="Registration Screen"/>
+    <p><em>Easy-to-use signup form that guides users through each step</em></p>
+  </div>
+</div>
+
+### Core Application Screens
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+  <div style="width: 48%;">
+    <img src="./screenshoot/home.png" width="400" alt="Film Gallery"/>
+    <p><em>Well-organized movie gallery showing film covers and titles</em></p>
+  </div>
+  <div style="width: 48%;">
+    <img src="./screenshoot/detail_movie.png" width="400" alt="Film Details"/>
+    <p><em>Detailed movie information with a modern, stylish background</em></p>
+  </div>
+</div>
+
+### User Experience
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+  <div style="width: 48%;">
+    <img src="./screenshoot/profile.png" width="400" alt="User Profile"/>
+    <p><em>User profile page showing personal information in a clean layout</em></p>
+  </div>
+  <div style="width: 48%;">
+    <img src="./screenshoot/menu.png" width="400" alt="Navigation Drawer"/>
+    <p><em>Side menu giving easy access to all app features</em></p>
+  </div>
+</div>
+
+</div>
+
+<blockquote>
+These screenshots show how the app is designed to be attractive, easy to use, and consistent across all screens.
+</blockquote>
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -137,6 +186,14 @@ The application integrates with the following Django API endpoints:
 4. **Film Details**: Tap on a film to view detailed information
 5. **Profile**: Users can view and manage their profile
 6. **Logout**: End the session and return to login
+7. **Exit Confirmation**: A confirmation dialog prevents accidental app closures
+
+<div align="center">
+  <div style="width: 48%; margin: 0 auto;">
+    <img src="./screenshoot/quit_confirm.png" width="400" alt="Exit Confirmation Dialog"/>
+    <p><em>Safety confirmation dialog when exiting the application</em></p>
+  </div>
+</div>
 
 ## 💾 Session Management
 

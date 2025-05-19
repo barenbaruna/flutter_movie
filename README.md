@@ -155,7 +155,7 @@ These screenshots show how the app is designed to be attractive, easy to use, an
 1. Clone the repositories:
    ```bash
    # Clone the Flutter frontend
-   git clone https://github.com/yourusername/flutter_movie.git
+   git clone https://github.com/barenbaruna/flutter_movie.git
    cd flutter_movie
    
    # Clone the Django backend

@@ -45,10 +45,11 @@ The application follows a clean architecture pattern with clear separation of co
 - **Local Storage**: Hive for persistent session management
 - **UI Components**: Custom widgets with Material Design
 
-### Backend (Django - not included in this repo)
+### Backend (Django)
 - **REST API**: Django REST Framework endpoints
 - **Authentication**: Token-based auth system
 - **Database**: PostgreSQL/MySQL (configurable)
+- **Repository**: [django-RESTful-API-movie-metadata](https://github.com/barenbaruna/django-RESTful-API-movie-metadata)
 
 ## 📂 Project Structure
 
@@ -151,10 +152,14 @@ These screenshots show how the app is designed to be attractive, easy to use, an
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repositories:
    ```bash
+   # Clone the Flutter frontend
    git clone https://github.com/yourusername/flutter_movie.git
    cd flutter_movie
+   
+   # Clone the Django backend
+   git clone https://github.com/barenbaruna/django-RESTful-API-movie-metadata.git
    ```
 
 2. Install dependencies:
@@ -178,7 +183,7 @@ These screenshots show how the app is designed to be attractive, easy to use, an
 
 ## 🌐 API Integration
 
-The application integrates with the following Django API endpoints:
+The application integrates with the Django backend repository [django-RESTful-API-movie-metadata](https://github.com/barenbaruna/django-RESTful-API-movie-metadata) via the following endpoints:
 
 ### Authentication
 - `POST /api/v1/register` - Create a new user account
